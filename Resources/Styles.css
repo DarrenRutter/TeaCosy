@@ -1,0 +1,208 @@
+/* ============ Global Styles ============ */
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.95;
+}
+
+body {
+    text-align: center;
+}
+
+/* ============ Header =============== */
+
+.header {
+    height: 69px;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    margin: 4px 10px;
+    height: 45px;
+}
+
+a {
+    font-size: 18px;
+    padding-left: 12px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: peachpuff;
+    text-decoration: none;
+}
+
+.links {
+    text-align: right;
+    flex-grow: 1;
+}
+
+/* ============= Mission ================ */
+
+.mission {
+    height: 700px;
+    width: 100%;
+    background-image:url('./Images/Mission\ Background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-image: no-repeat;
+    background-attachment: fixed;
+}
+
+.mission-statement {
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+
+.mission-statement h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mission-statement h4 {
+    font-size: 16px;
+}
+
+/* ================== Tea Special ================= */
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature-title {
+      font-size: 1.5em;
+  }
+
+  .feature-subtitle {
+      margin-top: 10px;
+      font-weight: 400;
+  }
+  
+  .photo-grid{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .photo-grid h4{
+    margin-top: 10px;
+  }
+  
+  .photo-grid img{
+    margin-right: 22px;
+    border-radius: 2px;
+  }
+
+  .featured-tea {
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+  }
+
+/* ================== Locations =================== */
+
+.location{
+    background-image: url("./Images/Locations\ Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  
+  .location-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: transparent;
+    }
+  
+  .block{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .location h2 {
+      font-size: 24px;
+      font-weight: bold;
+  }
+
+  .location-title h2 {
+      background-color: transparent;
+  }
+
+  .block h2 {
+      font-weight: normal;
+  }
+
+  .block h4 { 
+      font-size: 16px;
+      font-weight: normal;
+  }
+  
+  .block h2, h4{
+    margin-top: 5px;
+    padding: -20px;
+  }
+  
+
+/* ================= Footer ================= */
+.footer {
+    display: block;
+    height: 200px;
+}
+
+.footer h2 {
+    margin-top: 50px;
+    margin-bottom: -10px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: -10px;
+    width: 100%; 
+    text-align: center;
+}
+
+.footer a {
+    font-size: 14px;
+}
+
+
+/* ================= Copyright ================ */
+.copyright p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -65px;
+}
